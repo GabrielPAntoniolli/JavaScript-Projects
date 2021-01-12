@@ -1,0 +1,17 @@
+function swapRedGreen(pixel){ //Creating a function to swap the colors 
+    var newGreen = pixel.getRed();
+    var newRed = pixel.getGreen();
+    pixel.setRed(newRed);
+    pixel.setGreen(newGreen); 
+return pixel;
+    
+}
+
+var img = new SimpleImage("hippieflower.jpg"); //adding the image
+
+for(var pixel of img.values()){ // creating a loop to collect all the pixels
+    swapRedGreen(pixel); //invoking the function
+    
+}
+
+print(img); // printing
