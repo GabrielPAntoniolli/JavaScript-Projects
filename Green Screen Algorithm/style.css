@@ -1,0 +1,11 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+canvas{
+    width: 300px;
+    border: 2px solid lightblue;
+}
+html{
+
+    background-color: lightslategray;
+}

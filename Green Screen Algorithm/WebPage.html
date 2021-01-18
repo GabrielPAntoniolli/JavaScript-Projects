@@ -1,0 +1,33 @@
+<html>
+    <head>
+            <title>GreenScream Tool</title>
+            <h1>Green Scream!</h1><br>
+            <link rel="Stylesheet" href="style.css">
+            <script src="Script.js" ></script>
+
+            <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+            </script>
+        <body>
+<br>
+            <canvas id="canvas"></canvas>
+            <canvas id="canvas2"></canvas>  
+                
+
+                <br><b>Foreground:</b>
+            <input type="file" id="fgImage" multiple="false" accept="image/*"
+            onchange="uploadFgImage()">
+                
+                <br><b>Background:</b>    
+            <input type="file" id="bgImage" multiple="false" accept="image/*"
+            onchange="uploadBgImage()">
+<br><br>
+            <input type="button" value="Create Composite" id="firstButton"
+            onclick="doGreenScreen()">
+            
+            <input type="button" value="Clear Canvases" id="secondButton"
+            onclick="clearCanvas()">
+
+
+        </body>
+    </head>
+</html>
