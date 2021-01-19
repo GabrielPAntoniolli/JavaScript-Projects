@@ -1,0 +1,41 @@
+<html>
+    <head>
+            <title>Image Filters!!</title>
+            <div>
+            <h1>Upload Your Image and Choose The Filter You Like the Most!</h1> <br>
+        </div>
+            <link rel="Stylesheet" href="FilterStyle.css">
+            <script src="FilterScript.js" ></script>
+
+            <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+            </script>
+            </head>
+        <body>
+<br>
+            <canvas id="canvas"></canvas>
+        
+<br>
+<h1 id="callToLoad">Load Image:</h1>
+            <input type="file" multiple="false" accept="image/*" id="fInput"
+            onchange="uploadImage()">
+<br>
+<h1 id="callToFilter">Choose Filter:</h1>
+
+            <input type="button" value="Make Grey" id="greyButton"
+            onclick="makeGrey()">
+
+            <input type="button" value="Make Red" id="redButton"
+            onclick="makeRed()">
+
+            <input type="button" value="Rainbow" id="rainbow button"
+            onclick="makeRainbow()">
+
+
+<br><br>
+            <input type="button" value="Reset Image" id="resetButton"
+            onclick="resetImage()"> 
+
+
+        </body>
+    
+</html>
