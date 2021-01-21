@@ -1,0 +1,39 @@
+title{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: bold;
+    color: white;
+}
+
+
+html{
+    background-color: lightgrey;
+}
+div{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding-top: 60px;
+    text-align: center;
+}
+#callToLoad{
+    font-style: bold;
+    font-size:xx-large ;
+    text-align: left;
+    color: black;
+}
+#callToFilter{
+    font-style: bold;
+    font-size:xx-large ;
+    text-align: left;
+    color: black;
+
+}
+canvas{
+
+    width: 400px;
+    border:2px solid black;
+}
